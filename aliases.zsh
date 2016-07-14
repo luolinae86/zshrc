@@ -31,6 +31,7 @@ alias cd....='....'
 #git
 alias grm='git rm'
 alias gadd='git add'
+alias gpull='git pull'
 alias gdiff='git diff'
 alias gpush='git push origin master'
 alias gstatus='git status'
