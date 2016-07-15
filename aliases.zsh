@@ -10,6 +10,7 @@ export EDITOR="vim"
 bindkey -e
 
 alias vi="vim"
+alias vim='/usr/local/Cellar/vim/7.4.1993/bin/vim'
 
 ##### standard aliases (start with a space to be ignored in history)
 # default ls is untouched, except coloring
