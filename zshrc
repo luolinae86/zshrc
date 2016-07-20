@@ -177,40 +177,10 @@ zstyle ":completion:*:*:kill:*:processes" list-colors "=(#b) #([0-9]#)*=0=01;31"
 zstyle ":completion:*:kill:*" command "ps -u $USER -o pid,%cpu,tty,cputime,cmd"
 
 
-##
 # Keybinds
-#
 
-# Use emacs-style keybindings
-bindkey -e
-
-bindkey "$terminfo[khome]" beginning-of-line # Home
-bindkey "$terminfo[kend]" end-of-line # End
-bindkey "$terminfo[kich1]" overwrite-mode # Insert
-bindkey "$terminfo[kdch1]" delete-char # Delete
-bindkey "$terminfo[kcuu1]" up-line-or-history # Up
-bindkey "$terminfo[kcud1]" down-line-or-history # Down
-bindkey "$terminfo[kcub1]" backward-char # Left
-bindkey "$terminfo[kcuf1]" forward-char # Right
-# bindkey "$terminfo[kpp]" # PageUp
-# bindkey "$terminfo[knp]" # PageDown
-
-# Bind ctrl-left / ctrl-right
-bindkey "\e[1;5D" backward-word
-bindkey "\e[1;5C" forward-word
-
-# Bind ctrl-backspace to delete word.
-# NOTE: This may not work properly in some emulators
-# bindkey "^?" backward-delete-word
-
-# Bind shift-tab to backwards-menu
-# NOTE this won't work on Konsole if the new tab button is shown
-bindkey "\e[Z" reverse-menu-complete
-
-# Make ctrl-e edit the current command line
-autoload edit-command-line
-zle -N edit-command-line
-bindkey "^e" edit-command-line
+bindkey -v
+bindkey '^R' history-incremental-search-backward
 
 # Make sure the terminal is in application mode, when zle is
 # active. Only then are the values from $terminfo valid.
