@@ -4,6 +4,9 @@
 # the main RC file (will be linked to ~/.zshrc)
 #
 
+export PATH=/usr/local/bin:$PATH
+export PATH="$PATH:$HOME/.rvm/bin"
+
 # first include of the environment
 source $HOME/.config/zsh/environment.zsh
 
@@ -108,6 +111,8 @@ fi
 
 # add ~/bin to $PATH
 path=(~/bin $path)
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
 # add ~/.config/zsh/completion to completion paths
 # NOTE: this needs to be a directory with 0755 permissions, otherwise you will
 # get "insecure" warnings on shell load!
