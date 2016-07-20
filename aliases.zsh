@@ -10,7 +10,7 @@ export EDITOR="vim"
 bindkey -e
 
 alias vi="vim"
-# alias vim='/usr/local/Cellar/vim/7.4.1993/bin/vim'
+alias ctags='/usr/local/bin/ctags'
 
 ##### standard aliases (start with a space to be ignored in history)
 # default ls is untouched, except coloring
@@ -32,12 +32,14 @@ alias cd....='....'
 #git
 alias grm='git rm'
 alias gadd='git add'
-alias gpull='git pull'
 alias gdiff='git diff'
+alias gpull='git pull'
 alias gpush='git push origin master'
 alias gstatus='git status'
 alias gcommit='git commit -m'
 alias gpushdev='git push origin develop'
+alias gpulldev='git pull origin develop'
+alias gcheckout='git checkout'
 
 #directory
 alias workspace='cd /Users/luolin/workspace;ll'
