@@ -73,9 +73,9 @@ else
 	local _user="%{$_usercol%}%n@%M"
 	local _prompt="%{$fg[white]%}${(r:$SHLVL*2::%#:)}"
 
-	PROMPT="$_time $_user $_path $_prompt%b%f%k "
+	PROMPT="$_path $_prompt%b%f%k "
 
-	RPROMPT='${vcs_info_msg_0_}' # git branch
+	#RPROMPT='${vcs_info_msg_0_}' # git branch
 	if [[ ! -z "$SSH_CLIENT" ]]; then
 		RPROMPT="$RPROMPT ⇄" # ssh icon
 	fi
