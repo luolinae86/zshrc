@@ -50,6 +50,8 @@ alias zeta='cd /Users/luolin/workspace/project/zeta;ll'
 alias sshOpenstackCompute=". ~/servers/openstack_compute"
 alias sshOpenstackController=". ~/servers/openstack_controller"
  
+alias sshBlog=". ~/servers/blog"
+
 alias sshHeshengGit=". ~/servers/git"
 alias sshHeshengTest=". ~/servers/test"
 alias sshHeshengRead=". ~/servers/read"
