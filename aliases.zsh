@@ -46,12 +46,17 @@ alias workspace='cd /Users/luolin/workspace;ll'
 
 alias cloudhorn='cd /Users/luolin/workspace/project/cloudhorn;ll'
 alias mobileapi='cd /Users/luolin/workspace/project/cloudhorn/shenbian_mobile_api_ruby;ll'
+alias vimmobileapi='cd /Users/luolin/workspace/project/cloudhorn/shenbian_mobile_api_ruby;vim .'
+
 alias backend='cd /Users/luolin/workspace/project/cloudhorn/shenbian_backend;ll'
+alias vimbackend='cd /Users/luolin/workspace/project/cloudhorn/shenbian_backend;vim .'
 
 alias zeta='cd /Users/luolin/workspace/project/zeta;ll'
 alias science='cd /Users/luolin/workspace/project/zeta/science_read;ll'
+alias vimscience='cd /Users/luolin/workspace/project/zeta/science_read;vim .'
 
 alias blog='cd /Users/luolin/workspace/project/blog;ll'
+alias vimblog='cd /Users/luolin/workspace/project/blog;vim .'
 
 #ssh
 alias sshOpenstackCompute=". ~/servers/openstack_compute"
