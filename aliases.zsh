@@ -43,8 +43,15 @@ alias gcheckout='git checkout'
 
 #directory
 alias workspace='cd /Users/luolin/workspace;ll'
+
 alias cloudhorn='cd /Users/luolin/workspace/project/cloudhorn;ll'
+alias mobileapi='cd /Users/luolin/workspace/project/cloudhorn/shenbian_mobile_api_ruby;ll'
+alias backend='cd /Users/luolin/workspace/project/cloudhorn/shenbian_backend;ll'
+
 alias zeta='cd /Users/luolin/workspace/project/zeta;ll'
+alias science='cd /Users/luolin/workspace/project/zeta/science_read;ll'
+
+alias blog='cd /Users/luolin/workspace/project/blog;ll'
 
 #ssh
 alias sshOpenstackCompute=". ~/servers/openstack_compute"
