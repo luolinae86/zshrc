@@ -29,6 +29,10 @@ alias cd..='..'
 alias cd...='...'
 alias cd....='....'
 
+# rails process
+alias master='ps -ef | grep master'
+alias sidekiq='ps -ef | grep sidekiq'
+
 #git
 alias grm='git rm'
 alias gadd='git add'
