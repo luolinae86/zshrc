@@ -60,7 +60,9 @@ alias science='cd /Users/luolin/workspace/project/zeta/science_read;ll'
 alias vimscience='cd /Users/luolin/workspace/project/zeta/science_read;vim .'
 
 alias blog='cd /Users/luolin/workspace/project/blog;ll'
+alias blog5='cd /Users/luolin/workspace/project/blog5;ll'
 alias vimblog='cd /Users/luolin/workspace/project/blog;vim .'
+alias vimblog5='cd /Users/luolin/workspace/project/blog5;vim .'
 
 #ssh
 alias sshOpenstackCompute=". ~/servers/openstack_compute"
