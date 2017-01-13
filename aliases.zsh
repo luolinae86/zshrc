@@ -81,5 +81,13 @@ alias sshShenbianBackend=". ~/servers/shenbian_backend"
 alias sshShenbianDev=". ~/servers/shenbian_dev"
 alias sshShenbianMessageCenter=". ~/servers/shenbian_message_center"
 alias sshShenbianMobileApiF16D=". ~/servers/shenbian_mobile_api"
-alias sshShenbianMobileApiVice1=". ~/servers/shenbian_mobile_api_vice_1"
-alias sshShenbianMobileApiVice2=". ~/servers/shenbian_mobile_api_vice_2"
+alias sshShenbianMobileapi1=". ~/servers/shenbian_mobileapi1"
+alias sshShenbianMobileapi2=". ~/servers/shenbian_mobileapi2"
+alias sshShenbianMobileapi3=". ~/servers/shenbian_mobileapi3"
+alias sshShenbianMobileapi4=". ~/servers/shenbian_mobileapi4"
+
+
+alias deployApi1='mobileapi;bundle exec rake deploy:"to_remote[mobileapi1]" env=prd'
+alias deployApi2='mobileapi;bundle exec rake deploy:"to_remote[mobileapi2]" env=prd'
+alias deployF16D='mobileapi;bundle exec rake deploy:"to_remote[f16d]" env=prd'
+alias deployApi1Api2F16D='mobileapi;bundle exec rake deploy:"to_remote[mobileapi1 mobileapi2 f16d]" env=prd'
