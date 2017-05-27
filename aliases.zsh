@@ -48,26 +48,19 @@ alias gcheckout='git checkout'
 #directory
 alias workspace='cd /Users/luolin/workspace;ll'
 
-alias cloudhorn='cd /Users/luolin/workspace/project/cloudhorn;ll'
-alias mobileapi='cd /Users/luolin/workspace/project/cloudhorn/shenbian_mobile_api_ruby;ll'
-alias vimmobileapi='cd /Users/luolin/workspace/project/cloudhorn/shenbian_mobile_api_ruby;vim .'
+alias cloudhorn='cd /Users/luolin/workspace/cloudhorn;ll'
+alias mobileapi='cd /Users/luolin/workspace/cloudhorn/shenbian_mobile_api_ruby;ll'
+alias vimmobileapi='cd /Users/luolin/workspace/cloudhorn/shenbian_mobile_api_ruby;vim .'
 
-alias backend='cd /Users/luolin/workspace/project/cloudhorn/shenbian_backend;ll'
-alias vimbackend='cd /Users/luolin/workspace/project/cloudhorn/shenbian_backend;vim .'
+alias backend='cd /Users/luolin/workspace/cloudhorn/shenbian_backend;ll'
+alias vimbackend='cd /Users/luolin/workspace/cloudhorn/shenbian_backend;vim .'
 
-alias zeta='cd /Users/luolin/workspace/project/zeta;ll'
-alias science='cd /Users/luolin/workspace/project/zeta/science_read;ll'
-alias vimscience='cd /Users/luolin/workspace/project/zeta/science_read;vim .'
+alias science='cd /Users/luolin/workspace/hesheng/science_read;ll'
+alias vimscience='cd /Users/luolin/workspace/hesheng/science_read;vim .'
 
-alias blog='cd /Users/luolin/workspace/project/blog;ll'
-alias blog5='cd /Users/luolin/workspace/project/blog5;ll'
-alias vimblog='cd /Users/luolin/workspace/project/blog;vim .'
-alias vimblog5='cd /Users/luolin/workspace/project/blog5;vim .'
+alias hesheng='cd /Users/luolin/workspace/hesheng;ll'
 
 #ssh
-alias sshOpenstackCompute=". ~/servers/openstack_compute"
-alias sshOpenstackController=". ~/servers/openstack_controller"
- 
 alias sshBlog=". ~/servers/blog"
 
 alias sshHeshengGit=". ~/servers/git"
@@ -83,9 +76,6 @@ alias sshShenbianMessageCenter=". ~/servers/shenbian_message_center"
 alias sshShenbianMobileApiF16D=". ~/servers/shenbian_mobile_api"
 alias sshShenbianMobileapi1=". ~/servers/shenbian_mobileapi1"
 alias sshShenbianMobileapi2=". ~/servers/shenbian_mobileapi2"
-alias sshShenbianMobileapi3=". ~/servers/shenbian_mobileapi3"
-alias sshShenbianMobileapi4=". ~/servers/shenbian_mobileapi4"
-
 
 alias deployApi1='mobileapi;bundle exec rake deploy:"to_remote[mobileapi1]" env=prd'
 alias deployApi2='mobileapi;bundle exec rake deploy:"to_remote[mobileapi2]" env=prd'
