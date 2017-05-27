@@ -51,6 +51,7 @@ alias workspace='cd /Users/luolin/workspace;ll'
 alias cloudhorn='cd /Users/luolin/workspace/cloudhorn;ll'
 alias mobileapi='cd /Users/luolin/workspace/cloudhorn/shenbian_mobile_api_ruby;ll'
 alias vimmobileapi='cd /Users/luolin/workspace/cloudhorn/shenbian_mobile_api_ruby;vim .'
+alias sublmobileapi='cd /Users/luolin/workspace/cloudhorn/shenbian_mobile_api_ruby;subl .'
 
 alias backend='cd /Users/luolin/workspace/cloudhorn/shenbian_backend;ll'
 alias vimbackend='cd /Users/luolin/workspace/cloudhorn/shenbian_backend;vim .'
