@@ -61,6 +61,9 @@ alias vimscience='cd /Users/luolin/workspace/hesheng/science_read;vim .'
 
 alias hesheng='cd /Users/luolin/workspace/hesheng;ll'
 
+alias read='cd /Users/luolin/workspace/hesheng/hs_read;ll'
+alias sublread='cd /Users/luolin/workspace/hesheng/hs_read;subl .'
+
 #ssh
 alias sshBlog=". ~/servers/blog"
 

@@ -3,7 +3,6 @@
 #
 # the main RC file (will be linked to ~/.zshrc)
 #
-
 export PATH=/usr/local/bin:$PATH
 export PATH="$PATH:$HOME/.rvm/bin"
 
