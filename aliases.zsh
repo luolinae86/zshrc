@@ -88,3 +88,6 @@ alias deployApi1='mobileapi;bundle exec rake deploy:"to_remote[mobileapi1]" env=
 alias deployApi2='mobileapi;bundle exec rake deploy:"to_remote[mobileapi2]" env=prd'
 alias deployF16D='mobileapi;bundle exec rake deploy:"to_remote[f16d]" env=prd'
 alias deployApi1Api2F16D='mobileapi;bundle exec rake deploy:"to_remote[mobileapi1 mobileapi2 f16d]" env=prd'
+
+#关机
+alias shutdown='sudo shutdown -r now'
