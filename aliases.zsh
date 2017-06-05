@@ -74,6 +74,9 @@ alias sshHeshengScience=". ~/servers/science"
 alias sshHeshengWebsite=". ~/servers/website"
 alias sshHeshengXinyao=". ~/servers/xinyao"
 
+#眼科医院机器
+alias sshHospitalWebsite=". ~/servers/hospital_website"
+
 alias sshShenbianBackend=". ~/servers/shenbian_backend"
 alias sshShenbianDev=". ~/servers/shenbian_dev"
 alias sshShenbianMessageCenter=". ~/servers/shenbian_message_center"
