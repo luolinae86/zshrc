@@ -72,7 +72,12 @@ alias sshHeshengTest=". ~/servers/test"
 alias sshHeshengRead=". ~/servers/read"
 alias sshHeshengScience=". ~/servers/science"
 alias sshHeshengWebsite=". ~/servers/website"
+alias sshHeshengWaibao=". ~/servers/waibao"
 alias sshHeshengXinyao=". ~/servers/xinyao"
+
+#和生机房业务机器
+alias sshXinyao=". ~/servers/xinyao"
+alias sshFenji=". ~/servers/fenji"
 
 #眼科医院机器
 alias sshHospitalWebsite=". ~/servers/hospital_website"
