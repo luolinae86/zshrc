@@ -394,3 +394,4 @@ if [[ $LANG == "C"  || $LANG == "" ]]; then
 fi
 
 set -o vi
+set cursorcolumn
