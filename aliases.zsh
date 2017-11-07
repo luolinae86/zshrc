@@ -89,6 +89,8 @@ alias sshShenbianMessageCenter=". ~/servers/shenbian_message_center"
 alias sshShenbianMobileApiF16D=". ~/servers/shenbian_mobile_api"
 alias sshShenbianMobileapi1=". ~/servers/shenbian_mobileapi1"
 alias sshShenbianMobileapi2=". ~/servers/shenbian_mobileapi2"
+alias sshShenbianMobileapi3=". ~/servers/shenbian_mobileapi3"
+alias sshShenbianMobileTel1=". ~/servers/shenbian_mobile_tel_ruby1"
 
 alias deployApi1='mobileapi;bundle exec rake deploy:"to_remote[mobileapi1]" env=prd'
 alias deployApi2='mobileapi;bundle exec rake deploy:"to_remote[mobileapi2]" env=prd'
