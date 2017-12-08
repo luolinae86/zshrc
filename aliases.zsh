@@ -63,8 +63,8 @@ alias hesheng='cd /Users/luolin/workspace/hesheng;ll'
 
 alias read='cd /Users/luolin/workspace/hesheng/hs_read;ll'
 alias sublread='cd /Users/luolin/workspace/hesheng/hs_read;subl .'
-alias health_record='cd /Users/luolin/workspace/hesheng/health_record;ll'
-alias sublrecord='cd /Users/luolin/workspace/hesheng/health_record;subl .'
+alias health_record='cd /Users/luolin/workspace/hesheng/health_records;ll'
+alias sublrecord='cd /Users/luolin/workspace/hesheng/health_records;subl .'
 
 #ssh
 alias sshBlog=". ~/servers/blog"
