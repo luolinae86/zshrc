@@ -69,6 +69,7 @@ alias sublrecord='cd /Users/luolin/workspace/hesheng/health_records;subl .'
 #ssh
 alias sshBlog=". ~/servers/blog"
 
+alias sshHeshengMQ=". ~/servers/rabbitmq"
 alias sshHeshengGit=". ~/servers/git"
 alias sshHeshengTest=". ~/servers/test"
 alias sshHeshengRead=". ~/servers/read"
