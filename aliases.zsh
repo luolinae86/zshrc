@@ -56,15 +56,16 @@ alias sublmobileapi='cd /Users/luolin/workspace/cloudhorn/shenbian_mobile_api_ru
 alias backend='cd /Users/luolin/workspace/cloudhorn/shenbian_backend;ll'
 alias vimbackend='cd /Users/luolin/workspace/cloudhorn/shenbian_backend;vim .'
 
-alias science='cd /Users/luolin/workspace/hesheng/science_read;ll'
-alias vimscience='cd /Users/luolin/workspace/hesheng/science_read;vim .'
-
 alias hesheng='cd /Users/luolin/workspace/hesheng;ll'
 
 alias read='cd /Users/luolin/workspace/hesheng/hs_read;ll'
 alias sublread='cd /Users/luolin/workspace/hesheng/hs_read;subl .'
+alias science='cd /Users/luolin/workspace/hesheng/science_read;ll'
+alias vimscience='cd /Users/luolin/workspace/hesheng/science_read;vim .'
 alias health_record='cd /Users/luolin/workspace/hesheng/health_records;ll'
 alias sublrecord='cd /Users/luolin/workspace/hesheng/health_records;subl .'
+alias galaxy='cd /Users/luolin/workspace/hesheng/galaxy;ll'
+alias subgalaxy='cd /Users/luolin/workspace/hesheng/galaxy;subl .'
 
 #ssh
 alias sshBlog=". ~/servers/blog"
@@ -88,6 +89,7 @@ alias sshZydMeeting=". ~/servers/zyd_meeting"
 
 alias sshShenbianBackend=". ~/servers/shenbian_backend"
 alias sshShenbianDev=". ~/servers/shenbian_dev"
+alias sshShenbianTest=". ~/servers/shenbian_test"
 alias sshShenbianMessageCenter=". ~/servers/shenbian_message_center"
 alias sshShenbianMobileApiF16D=". ~/servers/shenbian_mobile_api"
 alias sshShenbianMobileapi1=". ~/servers/shenbian_mobileapi1"
