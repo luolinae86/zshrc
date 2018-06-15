@@ -87,6 +87,7 @@ alias sshFenji=". ~/servers/fenji"
 alias sshHospitalWebsite=". ~/servers/hospital_website"
 alias sshZydMeeting=". ~/servers/zyd_meeting"
 
+#云喇叭机器
 alias sshShenbianBackend=". ~/servers/shenbian_backend"
 alias sshShenbianDev=". ~/servers/shenbian_dev"
 alias sshShenbianTest=". ~/servers/shenbian_test"
@@ -94,9 +95,6 @@ alias sshShenbianMessageCenter=". ~/servers/shenbian_message_center"
 alias sshShenbianMobileApiF16D=". ~/servers/shenbian_mobile_api"
 alias sshShenbianMobileapi1=". ~/servers/shenbian_mobileapi1"
 alias sshShenbianMobileapi2=". ~/servers/shenbian_mobileapi2"
-alias sshShenbianMobileapi3=". ~/servers/shenbian_mobileapi3"
-alias sshShenbianMobileapi4=". ~/servers/shenbian_mobileapi4"
-alias sshShenbianMobileapi5=". ~/servers/shenbian_mobileapi5"
 alias sshShenbianMobileapiYinji=". ~/servers/shenbian_mobileapi_yinji"
 alias sshShenbianCRedis=". ~/servers/shenbian_credis"
 
@@ -106,6 +104,9 @@ alias deployF16D='mobileapi;bundle exec rake deploy:"to_remote[f16d]" env=prd'
 alias deployApi1Api2F16D='mobileapi;bundle exec rake deploy:"to_remote[mobileapi1 mobileapi2 f16d]" env=prd'
 
 alias sshJike=". ~/servers/jike"
+
+#短信飞毛腿
+alias sshSmsRabbitMQ=". ~/servers/sms_rabbitmq"
 #关机
 alias reboot='sudo shutdown -r now'
 alias shutdown='sudo shutdown -h now'
