@@ -78,6 +78,8 @@ alias sshHeshengScience=". ~/servers/science"
 alias sshHeshengWebsite=". ~/servers/website"
 alias sshHeshengWaibao=". ~/servers/waibao"
 alias sshHeshengXinyao=". ~/servers/xinyao"
+#和生视界图像存储内部机器
+alias sshHeshengImages=". ~/servers/hesheng_images"
 
 #和生机房业务机器
 alias sshXinyao=". ~/servers/xinyao"
@@ -92,6 +94,7 @@ alias sshShenbianBackend=". ~/servers/shenbian_backend"
 alias sshShenbianDev=". ~/servers/shenbian_dev"
 alias sshShenbianTest=". ~/servers/shenbian_test"
 alias sshShenbianMessageCenter=". ~/servers/shenbian_message_center"
+alias sshShenbianState2=". ~/servers/shenbian_state2"
 alias sshShenbianMobileApiF16D=". ~/servers/shenbian_mobile_api"
 alias sshShenbianMobileapi1=". ~/servers/shenbian_mobileapi1"
 alias sshShenbianMobileapi2=". ~/servers/shenbian_mobileapi2"
