@@ -29,6 +29,9 @@ alias cd..='..'
 alias cd...='...'
 alias cd....='....'
 
+# zshrc
+
+alias zshrc='cd /Users/luolin/.zsh/zshrc;ll'
 # rails process
 alias master='ps -ef | grep master'
 alias sidekiq='ps -ef | grep sidekiq'
@@ -48,24 +51,24 @@ alias gcheckout='git checkout'
 #directory
 alias workspace='cd /Users/luolin/workspace;ll'
 
-alias cloudhorn='cd /Users/luolin/workspace/cloudhorn;ll'
-alias mobileapi='cd /Users/luolin/workspace/cloudhorn/shenbian_mobile_api_ruby;ll'
-alias vimmobileapi='cd /Users/luolin/workspace/cloudhorn/shenbian_mobile_api_ruby;vim .'
-alias sublmobileapi='cd /Users/luolin/workspace/cloudhorn/shenbian_mobile_api_ruby;subl .'
+alias cloudhorn='cd /Users/luolin/workspace/project/cloudhorn;ll'
+alias mobileapi='cd /Users/luolin/workspace/project/cloudhorn/shenbian_mobile_api_ruby;ll'
+alias vimmobileapi='cd /Users/luolin/workspace/project/cloudhorn/shenbian_mobile_api_ruby;vim .'
+alias sublmobileapi='cd /Users/luolin/workspace/project/cloudhorn/shenbian_mobile_api_ruby;subl .'
 
-alias backend='cd /Users/luolin/workspace/cloudhorn/shenbian_backend;ll'
-alias vimbackend='cd /Users/luolin/workspace/cloudhorn/shenbian_backend;vim .'
+alias backend='cd /Users/luolin/workspace/project/cloudhorn/shenbian_backend;ll'
+alias vimbackend='cd /Users/luolin/workspace/project/cloudhorn/shenbian_backend;vim .'
 
-alias hesheng='cd /Users/luolin/workspace/hesheng;ll'
+alias zeta='cd /Users/luolin/workspace/project/zeta;ll'
 
-alias read='cd /Users/luolin/workspace/hesheng/hs_read;ll'
-alias sublread='cd /Users/luolin/workspace/hesheng/hs_read;subl .'
-alias science='cd /Users/luolin/workspace/hesheng/science_read;ll'
-alias vimscience='cd /Users/luolin/workspace/hesheng/science_read;vim .'
-alias health_record='cd /Users/luolin/workspace/hesheng/health_records;ll'
-alias sublrecord='cd /Users/luolin/workspace/hesheng/health_records;subl .'
-alias galaxy='cd /Users/luolin/workspace/hesheng/galaxy;ll'
-alias subgalaxy='cd /Users/luolin/workspace/hesheng/galaxy;subl .'
+alias read='cd /Users/luolin/workspace/project/zeta/hs_read;ll'
+alias sublread='cd /Users/luolin/workspace/project/zeta/hs_read;subl .'
+alias science='cd /Users/luolin/workspace/project/zeta/science_read;ll'
+alias vimscience='cd /Users/luolin/workspace/project/zeta/science_read;vim .'
+alias health_record='cd /Users/luolin/workspace/project/zeta/health_records;ll'
+alias sublrecord='cd /Users/luolin/workspace/project/zeta/health_records;subl .'
+alias galaxy='cd /Users/luolin/workspace/project/zeta/galaxy;ll'
+alias subgalaxy='cd /Users/luolin/workspace/project/zeta/galaxy;subl .'
 
 #ssh
 alias sshBlog=". ~/servers/blog"
